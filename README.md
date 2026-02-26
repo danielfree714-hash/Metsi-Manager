@@ -153,16 +153,3 @@ El juego está dividido en **motores independientes**, lo que permite escalar y 
 - Manejo de amistosos en semanas libres
 
 ---
-
-## 🗄️ Arquitectura del Proyecto
-
-```text
-backend/
-│
-├── app/
-│   ├── engines/              # Lógica del juego
-│   ├── models/               # Base de datos
-│   ├── routes/               # API REST
-│   └── main.py               # Backend principal
-│
-└── requirements.txt
